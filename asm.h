@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+#include <sys/stat.h>
 
 typedef enum {num, op, reg, symbol, label } Kind;
 typedef struct Token Token;
